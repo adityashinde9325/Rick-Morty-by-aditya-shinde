@@ -1,0 +1,259 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f0f0f0; */
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9AAGfy2pnnVszg64cvoux9_8rBkd8QH3EplC5jiY3vxqQyDO_iW7TDi-U6hvZtw5cYnTL3MYN6vzpk4BdeRE_kMbkgz-pOC-hxIiE43O8slEfsSmLyb1KovMbpdfTc1s-kqdIV40o5vejHd2wAJ171W4VqPIbIrP4APuuoHaZ9E1NV2-44pyAQgrmdA/w1600/RICK%20AND%20MORTY%20GALAXY%20WALLPAPER%2012720232.png'); 
+  }
+  /* img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  } */
+  
+  .container {
+    margin-top: 10px;
+    position: relative;
+    /* border-radius: 40px; */
+    /* display: grid; */
+  /* grid-template-columns: auto auto auto; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content:space-evenly;
+    /* background-color:#f9f9f9; */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    /* background-color: red; */
+    /* text-align: start; */
+    /* border: 1px solid #ccc; */
+    /* height: 300px; */
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    
+    text-align: start;
+    /* background-color: #fff; */
+    /* background-color: red; */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .card h3{
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1px;
+    font-weight: bold;
+    color: rgb(250, 250, 255);
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .card p{
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(250, 250, 255);
+  
+    line-height:0px;
+    /* line-height: 5px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .card img:hover{
+    box-shadow: 2px 2px 10px 3px rgb(163, 162, 162);
+    /* height: 300px; */
+    transform: rotateY(180deg);
+    /* transition-duration: 0.4s; */
+    /* width: 500px; */
+  }
+
+  img {
+    /* padding: 1rem; */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(10px);
+    /* opacity: 1; */
+  }
+  .filter-main{
+    /* width: 300px; */
+    height: 350px;
+    display: flex;
+    background-color: aquamarine;   
+    /* justify-items: center; */
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 12px;
+    padding: 20px;
+
+  }
+ 
+    .btn1{
+      width: 4rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 28px;
+    }
+  
+  .st1{
+    width: 5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 28px;
+
+  }
+  .st2{
+    width: 5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 25px;
+  }
+  .st3{
+    width: 5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 28px;
+  }
+  .st4{
+    width: 15rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 2rem;
+  }
+  .st5{
+    width: 5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 28px;
+    /* justify-content: center; */
+    /* align-items: center; */
+       
+  }
+  .st6{
+
+    width: 5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 25px;
+    
+  }
+  .st5:hover{
+    background-color:orange;
+  }
+ 
+
+  /* card animaton */
+  
+
+.card {
+  width: 300px;
+  height: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: grid;
+  /* place-items: center; */
+ /* background: url("https://www.dropbox.com/s/d5cvnph0y2a4tk7/image.jpg?raw=1") */
+   /* no-repeat center center/cover;  */
+  position: relative;
+  transition: all 1s;
+  z-index: 1;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* opacity: 0.5; */
+}
+
+
+.card:hover .info h2,
+.card:hover .info p {
+  opacity: 1;
+}
+
+
+.card:hover .info::before {
+  transform: skew(30deg) translateX(50%);
+}
+
+.card:hover .info::after {
+  transform: skew(-30deg) translateX(40%);
+  opacity: 0.7;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #61a2a7;
+  opacity: 0.3;
+  transform: skew(30deg) translateX(125%);
+  transition: all 0.6s ease;
+  z-index: -1;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #02dbfc;
+  opacity: 0.3;
+  transform: skew(-20deg) translateX(95%);
+  transition: all 0.6s ease;
+  z-index: -1;
+}
+.card:hover:before {
+  transform: skew(30deg) translateX(30%);
+}
+.card:hover:after {
+  transform: skew(-30deg) translateX(20%);
+}
+
+
+
+/* mobile device */
+@media only screen and (max-width: 600px) {
+  /* Adjust h1 font size for screens up to 600 pixels wide (typical mobile devices) */
+  h2 {
+    font-size: 1em;
+  }
+}
+
+
+
+  
