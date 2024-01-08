@@ -172,6 +172,8 @@ window.addEventListener('beforeunload', () => {
   localStorage.setItem('nameSearch', nameSearch);
 });
 
+end//
+
 
 
 
